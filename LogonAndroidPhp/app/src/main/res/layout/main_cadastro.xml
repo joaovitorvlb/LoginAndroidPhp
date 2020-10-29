@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editNomeCad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu E-mail"/>
+
+    <EditText
+        android:id="@+id/editEEmilCad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sia senha"/>
+
+    <EditText
+        android:id="@+id/editNSenhaCad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu E-mail"/>
+
+    <EditText
+        android:id="@+id/editSenhaConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu E-mail"/>
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Cadastrar"/>
+
+    <TextView
+        android:id="@+id/txtCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Cadastre-se agora"/>
+
+</LinearLayout>
