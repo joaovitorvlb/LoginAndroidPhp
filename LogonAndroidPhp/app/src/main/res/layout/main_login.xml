@@ -14,7 +14,7 @@
         android:hint="Digite seu E-mail"/>
 
     <EditText
-        android:id="@+id/editESenhaLogar"
+        android:id="@+id/editSenhaLogar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Digite sia senha"/>
