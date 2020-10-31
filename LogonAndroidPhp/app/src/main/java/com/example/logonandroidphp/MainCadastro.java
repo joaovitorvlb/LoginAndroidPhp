@@ -2,6 +2,7 @@ package com.example.logonandroidphp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -63,6 +64,8 @@ public class MainCadastro extends AppCompatActivity {
                                                 Toast.makeText(MainCadastro.this, "Ops! Esse elmail já está cadastrado!", Toast.LENGTH_SHORT).show();
                                             } else if (retorno.equals("sucesso")){
                                                 Toast.makeText(MainCadastro.this, "Cadastrado com sucesso!", Toast.LENGTH_SHORT).show();
+                                                Intent abrePrincipal = new Intent(MainCadastro.this, MainActivity.class);
+                                                startActivity(abrePrincipal);
                                             } else {
                                                 Toast.makeText(MainCadastro.this, "Ops! Ocorreu um erro!", Toast.LENGTH_SHORT).show();
                                             }
